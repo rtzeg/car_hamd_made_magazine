@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="scss/style.css">
+    <title>Shops</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><img src="https://static.lamborghinistore.com/static/version1681309051023/img/logo.svg" alt=""></li>
+            </ul>
+            <ul>
+                <li><a href="#">все машины</a></li>
+                <li id="basket"><a href="#">карзина</a></li>
+                <li><a href="#">цвета</a></li>
+            </ul>
+            <ul>
+                <li>
+                    <span class="material-icons" id="search">
+                        search
+                    </span>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="modal">
+            <div class="cont">
+                <div class="search">
+                    <div class="block">
+                        <input type="text" id="myInp">
+                        <button>
+                            <span class="material-icons">
+                                search
+                            </span>
+                        </button>
+                    </div>
+                </div>
+                <div class="box" id="searchBox">
+
+                </div>
+            </div>
+        </div>
+        <section class="sliyd">
+            <div class="cont">
+                <div class="box">
+                    <div class="swiper mySwiper">
+                        <div class="swiper-wrapper swipcont">
+                        </div>
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-scrollbar"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="katalog" id="katalog">
+            <div class="cont">
+                <div class="box">
+                    <h1>Каталог цветов</h1>
+                    <div class="block" id="color">
+                        <div class="elem" data-color="all" id="colors">
+                            <div class="color">
+                                <span class="material-icons">
+                                    apps
+                                </span>
+                            </div>
+                            <p>все машины</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="content">
+            <div class="cont">
+                <div class="box" id="thiscontents">
+
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="cont">
+            <div class="box">
+                <div class="elem">
+                    <div class="logo">
+                        <img src="https://static.lamborghinistore.com/static/version1681309051023/img/logo.svg" alt="">
+                    </div>
+                    <p>нашь номер</p>
+                    <p>+7(825)729-08-56</p>
+                </div>
+                <div class="elem">
+                    <div class="top">
+                        <span class="material-icons" style="transform:rotate(-90deg);">
+                            arrow_forward
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/swiper.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
